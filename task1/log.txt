@@ -1,0 +1,17 @@
+commit 503790605b6008370ed060b30f301e51ec9166a0
+Author: = <enik-ilya@yandex.ru>
+Date:   Mon Feb 17 18:02:01 2020 +0300
+
+    add status.txt
+
+commit 4c55dd594795743c4cca5c471d99554e80940642
+Author: = <enik-ilya@yandex.ru>
+Date:   Mon Feb 17 18:00:11 2020 +0300
+
+    add .gitignore
+
+commit 24324fbf56631223f23b974afa3e3eaf2eedf1cc
+Author: = <enik-ilya@yandex.ru>
+Date:   Mon Feb 17 12:17:53 2020 +0300
+
+    add README.md
