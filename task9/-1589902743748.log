@@ -1,0 +1,13 @@
+scripts.js:88 {id: "1", description: "sfdbgjhvhjcsvkjbdjcilvjdlkvjdflkvj", createdAt: Tue Mar 17 2020 23:00:00 GMT+0300 (Москва, стандартное время), author: "Paziloi chelovek", photoLink: "https://i.pinimg.com/originals/d2/f6/39/d2f63991e4c40eb5b886f6f1982e91e8.png"}
+scripts.js:88 {id: "2", description: "sdfbgfnhgmhmnbfvdcvfdbgfnhgmjmygfdsaxdcfbgfnhjmgyftbdvcdas", createdAt: Tue Mar 17 2020 23:00:03 GMT+0300 (Москва, стандартное время), author: "Paziloi chelovek", photoLink: "https://i.pinimg.com/originals/d2/f6/39/d2f63991e4c40eb5b886f6f1982e91e8.png"}
+scripts.js:88 {id: "3", description: "b56vy5c6t45t45y65y56y", createdAt: Tue Mar 17 2020 23:00:02 GMT+0300 (Москва, стандартное время), author: "Paziloi chelovek", photoLink: "https://i.pinimg.com/originals/d2/f6/39/d2f63991e4c40eb5b886f6f1982e91e8.png"}
+scripts.js:88 {id: "4", description: "5v4n89cm49x3fmfc3po5pog54pomgcmpo", createdAt: Tue Mar 17 2020 23:00:05 GMT+0300 (Москва, стандартное время), author: "Paziloi chelovek", photoLink: "https://i.pinimg.com/originals/d2/f6/39/d2f63991e4c40eb5b886f6f1982e91e8.png"}
+scripts.js:88 {id: "5", createdAt: Tue Mar 17 2020 23:00:05 GMT+0300 (Москва, стандартное время), author: "Paziloi chelovek", photoLink: "https://i.pinimg.com/originals/d2/f6/39/d2f63991e4c40eb5b886f6f1982e91e8.png"}
+addPost({id:'6' , createdAt: new Date() , author: "Stas" , photoLink: "https://www.meme-arsenal.com/memes/1f9d1ea5335dec99e65e15ed0f86dd4f.jpg" , description: "ervnrvnrjjvnerjv"})
+true
+editPost(1  , {photoLink : "https://www.meme-arsenal.com/memes/1f9d1ea5335dec99e65e15ed0f86dd4f.jpg"})
+true
+removePost(1)
+true
+removePost(10)
+false
