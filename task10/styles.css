@@ -1,0 +1,256 @@
+#header {
+        border-bottom: 3px solid #C0C0C0;
+       margin-left: auto;
+       margin-right: auto;
+       padding-top: 20px;
+       padding-bottom: 20px;
+}
+.button {
+    background: white;
+    border: none;
+    color: black;
+    height: 60%;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.button:hover {
+    -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+        
+}
+
+    .block {
+        margin-top: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-right: 30%;
+        margin-left: 30%;
+        border: 3px solid #696969;
+        -moz-border-radius: 12px;
+        -khtml-border-radius: 12px;
+        -webkit--border-radius: 12px;
+        border-radius: 12px;
+        background: #FFFFFF;
+        color: #000;
+        cursor: pointer;
+    }
+    .block:hover {
+        -webkit-transform: scale(1.02);
+        transform: scale(1.02);
+    }
+    
+    .transition {
+        transition: 0.3s;
+    }
+
+    .post-textAndImg {
+        overflow: hidden;
+        margin-bottom: 10px;
+        margin-top: 10px;
+
+    }
+
+    .post-text {
+        float: left;
+        max-width: 60%;
+    }
+
+    .post-photo {
+        float: right;
+        max-width: 40%;
+        border: 3px solid #C0C0C0;
+        -moz-border-radius: 12px;
+        -khtml-border-radius: 12px;
+        -webkit--border-radius: 12px;
+        border-radius: 12px;
+    }
+
+    .post-photo-img {
+        width: 98%;
+        padding-left: 1%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-right: 1%;
+    }
+
+    .postHead {
+      font-family: 'Pacifico', cursive;
+      text-align: center;
+      display: inline-flex;
+    }
+    .postImg {
+        display: inline-flex;
+
+    }
+    .postImg-img {
+         border-radius: 100px; /* Радиус скругления */
+    border: 3px solid #C0C0C0; /* Параметры рамки */
+    box-shadow: 0 0 7px #666; /* Параметры тени */
+    width: 50px;
+    }
+
+    .post-button {
+        display: inline-flex;
+        background-color: rgba(249, 255, 172, 0.0);
+        border: 3px solid #C0C0C0;
+        -moz-border-radius: 12px;
+        -khtml-border-radius: 12px;
+        -webkit--border-radius: 12px;
+        border-radius: 12px;
+        color: black;
+         height: 100%;
+         padding: 12px 16px;
+         font-size: 16px;
+         cursor: pointer;
+         margin-left: 10px;
+    }
+    .post-button:hover {
+        -webkit-transform: scale(1.02);
+        transform: scale(1.02);
+    }
+
+    .loadmoreBtn {
+        margin-top: 30px;
+        border: 3px solid #000;
+        -moz-border-radius: 12px;
+        -khtml-border-radius: 12px;
+        -webkit--border-radius: 12px;
+        border-radius: 12px;
+        background: #FFFFFF;
+        color: #000;
+        cursor: pointer;
+    padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 16pt;
+        text-align: center;
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+
+    .loadmoreBtn:hover {
+        background: #FF7F50;
+        color: #8B008B;
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+
+    .footer {
+        position: sticky;
+        width: 100%;
+        background: #000;
+        color: white;
+        text-align: center;
+        padding-top: 20px;
+        margin-top: 50px;
+        padding-bottom: 50px;
+        font-size: 14pt;
+        left: 0;
+        min-height: 100%;
+    }
+
+    .footer:hover {
+        background: #696969;
+    }
+
+    #loginForm {
+        font-size: 20pt;
+        flex-wrap: warp;
+        align-content: center;
+
+        margin-top: 15%;
+        width: 40%;
+        margin-left: 30%;
+        text-align: center;
+    }
+
+    .loginForm-text {
+
+        width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+        border: 1px solid #ccc;
+       border-radius: 4px;
+         box-sizing: border-box;
+    }
+    .loginForm-button {
+        width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+    }
+
+    #search {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    #searchBlock {
+        width: 40%;
+         border: 3px solid black;
+        -moz-border-radius: 4px;
+        -khtml-border-radius: 4px;
+        -webkit--border-radius: 4px;
+        border-radius: 4px;
+    }
+    #search-content {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    #applySearchBtn {
+        width: 80%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10%;
+  margin-right: 10%;
+    }
+    #selectFilter {
+        width: 80%;
+    }
+
+    #addPostBlock {
+        width: 40%;
+         border: 3px solid black;
+        -moz-border-radius: 4px;
+        -khtml-border-radius: 4px;
+        -webkit--border-radius: 4px;
+        border-radius: 4px;
+    }
+    #addPostContent {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    #postButton {
+          width: 80%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10%;
+  margin-right: 10%;
+    }
+
+    #textareaPost {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+

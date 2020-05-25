@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pages where you can see some posts</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2|Lobster|Pacifico&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/23d5ea9dfa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    
+	
+    <div id="pageContent">
+
+	<div id = "header">
+		<center>
+		<button class="button transition">
+                        <i class="fas fa-home"></i>
+        </button>
+        <button class="button transition username-text" id="nameButton">
+                        OMG_NAME
+        </button>
+        <button class="button transition" id="searchButton">
+                        <i class="fas fa-filter"></i>
+        </button>
+    	</center>
+	</div>
+
+    <div hidden id="search"><center>
+        <div id = "searchBlock">
+         <div id="search-content">
+            <form>
+                 <select id = "selectFilter">
+                    <option>
+                        по дате
+                    </option>
+                    <option>
+                        по индексу
+                    </option>
+                </select>
+                <input type="button" name="applySearch" id="applySearchBtn" value="применить поиск">
+               
+            </form>
+       </div> 
+         </div></center>
+    </div>
+
+    <div hidden id="addPost">
+        <center>
+            <div id="addPostBlock">
+                <div id="addPostContent">
+                    <form>
+                        <textarea id="textareaPost">Введите здесь вашу нереальную новость</textarea>
+                        <div>ссылка на фоточку :</div>
+                        <input type="text" name="photolink" id="addPost-photoLink">
+                         <input type="button" name="applySearch" id="postButton" value="запостить">
+                    </form>
+                </div>
+            </div>
+        </center>
+    </div>
+
+
+	<template id="post-blackpaper">
+	<div class="post">
+	<div class="block transition">
+	<div class="postHead"></div>
+	
+	<div class="post-textAndImg">
+		<div class="post-text">
+			<div class="text"></div>
+		</div>
+		<div class="post-photo">
+			<img class="post-photo-img" src="https://pbs.twimg.com/profile_images/784044458459430912/Rmf-adoT.jpg" >
+		</div>
+    </div>
+    	<button class="post-button transition">
+               <i class="fas fa-comment"></i>
+        </button>
+        <button class="post-button transition">
+               <i class="far fa-heart"></i>
+        </button>
+    </div>
+    </div>
+	</template>
+    <div id="allPosts"></div>
+
+    <div id="loadmoreBtnInsert"></div>
+    <template id="tempLoadMoreBtn"><div class="loadmoreBtn transition" id = "loadmoreButton">load more</div></template>
+
+
+    <div hidden id="loginForm">
+        <form >
+            <div>Логин :</div>
+            <input type="text" name="loginForm-username" class="loginForm-text">
+            <div>Пока что без пароля :)</div>
+            <input type="button" name="loginForm-submit" class="loginForm-button" value="Log In">
+        </form>
+    </div>
+
+
+
+
+
+
+
+    <div hidden class="footer transition">Made by Ilya Veratsila. 2 course 7 group. 2020. <br>
+    mail me : enik-ilya@yandex.ru</div>
+
+    </div>
+
+    <script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
